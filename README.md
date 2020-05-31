@@ -9,8 +9,9 @@ Create a personal porfolio page for potential employers
 * CSS
 
 ## Website
+https://josephptflanagan.github.io/200531-Personal-Portfolio/
 
 ## Contribution
 Made with ❤️ by Joseph Flangan
 
-### &copy 2020 Joseph Flanagan
+### ©️2020 Joseph Flanagan
