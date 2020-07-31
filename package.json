@@ -1,0 +1,24 @@
+{
+  "name": "200531-personal-portfolio",
+  "version": "1.0.0",
+  "description": "## Purpose Create a personal porfolio page for potential employers",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^26.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephptflanagan/200531-Personal-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephptflanagan/200531-Personal-Portfolio/issues"
+  },
+  "homepage": "https://github.com/josephptflanagan/200531-Personal-Portfolio#readme"
+}
