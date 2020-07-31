@@ -167,13 +167,14 @@ header nav ul li a{
     width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 50px);
+    grid-template-rows: repeat(9, 50px);
     grid-gap: 5px;
 }
 
 .work-grid-item{
     padding: 0 0 15px 15px;
     border: 2px solid var(--secondary-color);
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -201,49 +202,63 @@ header nav ul li a{
 
 .run-buddy{
     grid-column: 1 / span 2;
-    grid-row:1 / span 2;
+    grid-row:1 / span 3;
     background-image: url(../img/run-buddy-thumbnail.jpg);
     background-size: cover;
 }
 
-.fake01{
+.password-generator{
     grid-column: 3 / span 1;
-    grid-row:2 / span 2;
-    background-image: url(../img/universe.jpg);
+    grid-row:1 / span 3;
+    background-image: url(../img/password-generator-thumbnail.jpg);
     background-size: cover;
 }
 
-.fake02{
+.taskinator{
     grid-column: 4 / span 1;
-    grid-row:1 / span 2;
-    background-image: url(../img/road.jpg);
+    grid-row:1 / span 3;
+    background-image: url(../img/taskinator-thumbnail.jpg);
     background-size: cover;
 }
 
-.fake03{
+.git-it-done{
     grid-column: 1 / span 1;
-    grid-row:3 / span 1;
-    background-image: url(../img/river.jpg);
+    grid-row:4 / span 3;
+    background-image: url(../img/git-it-done-thumbnail.jpg);
     background-size: cover;
 }
 
-.fake04{
+.work-day-scheduler{
     grid-column: 2 / span 1;
-    grid-row:3 / span 1;
-    background-image: url(../img/servers.jpg);
+    grid-row:4 / span 3;
+    background-image: url(../img/work-day-scheduler-thumbnail.jpg);
     background-size: cover;
 }
 
-.fake05{
+.weather-dashboard{
+    grid-column: 3 / span 2;
+    grid-row:4 / span 3;
+    background-image: url(../img/weather-dashboard-thumbnail.jpg);
+    background-size: cover;
+}
+
+.zoo-keepr{
+    grid-column: 1 / span 2;
+    grid-row:7 / span 3;
+    background-image: url(../img/zoo-keepr-thumbnail.jpg);
+    background-size: cover;
+}
+
+.note-taker{
     grid-column: 3 / span 1;
-    grid-row:1 / span 1;
-    background-image: url(../img/oilrig.jpg);
+    grid-row:7 / span 3;
+    background-image: url(../img/note-taker-thumbnail.jpg);
     background-size: cover;
 }
 
-.fake06{
+.fake01{
     grid-column: 4 / span 1;
-    grid-row:3 / span 1;
+    grid-row:7 / span 3;
     background-image: url(../img/airplane.jpg);
     background-size: cover;
 }
